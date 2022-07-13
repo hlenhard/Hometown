@@ -1,0 +1,130 @@
+body {
+  border: 1px solid #e2edff;
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Gothic A1", sans-serif;
+  font-weight: light;
+}
+
+.title {
+  text-align: end;
+  font-size: 32px;
+  margin-right: 50px;
+}
+
+.title-sm {
+  border-radius: 5px;
+  padding: 2px 10px;
+  margin-top: 150px;
+  color: whitesmoke;
+  text-shadow: 1px 1px 3px black;
+  background: hsl(223, 23%, 68%, 70%);
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  background-image: url("images/Stari_grad.jpeg");
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  padding: 40px;
+}
+
+#portrait {
+  width: 175px;
+  height: 190px;
+}
+
+/* a:hover {
+  transform: scale(0.99);
+} */
+
+img {
+  /* border-radius: 5px; */
+  height: 150px;
+  width: 250px;
+}
+
+p {
+  padding: 10px;
+}
+
+h1 {
+  border-radius: 10px;
+  padding: 0px 20px;
+  text-shadow: 0 0 3px #447358;
+  color: white;
+  background: hsl(223, 23%, 68%, 70%);
+}
+
+h3 {
+  color: #1e1e1e;
+}
+
+.activities {
+  height: 100px;
+  padding: 10px 0;
+  background: #e2edff;
+}
+
+.activities-img {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #e2edff;
+}
+
+.img1 {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-bottom: 10px;
+  box-shadow: 2px 10px 30px #99a3b2;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  height: 300px;
+  width: 250px;
+  text-align: center;
+  color: #1e1e1e;
+  background: #e2edff;
+}
+
+.img1:hover {
+  transform: scale(0.99);
+  animation-duration: 1s;
+}
+
+.guide {
+  display: flex;
+  align-items: center;
+  color: #1e1e1e;
+}
+
+.guide-txt {
+  padding: 10px;
+  text-align: center;
+}
+
+.card {
+  box-shadow: 10px 10px 30px #99a3b2;
+  transform: rotate(-5deg);
+  margin: 450px auto 150px auto;
+  border-radius: 10px;
+  height: 200px;
+  width: 500px;
+  padding: 20px;
+  display: flex;
+  background: #abb5cc;
+  border-bottom: 6px solid #334b48;
+}
+
+.footer {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 100px;
+  background: #e2edff;
+}
